@@ -32,7 +32,7 @@ export default function ChatProvider({children}: PropsWithChildren) {
             setIsReady(false); 
           }
     }, []);
-    
+
     if(!isReady){
         return <ActivityIndicator/>
     }
@@ -47,3 +47,5 @@ export default function ChatProvider({children}: PropsWithChildren) {
         </>
     )
 }
+// JS#w5-RP.EkHwa.
+// BdgquctSwR5LIbut

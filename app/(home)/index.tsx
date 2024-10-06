@@ -1,8 +1,8 @@
-import { View } from "react-native";
+import { Redirect } from "expo-router";
+import { Text, View } from "react-native";
 
 export default function HomeIndex(){
     return (
-    <View>
-
-    </View>)
+   <Redirect href="/(tabs)"/>
+    )
 }
